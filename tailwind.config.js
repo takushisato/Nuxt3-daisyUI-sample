@@ -11,6 +11,22 @@ export default {
   theme: {
     extend: {},
   },
-  themes: ["light", "dark", "cupcake"],
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          primary: "#fcd34d",
+          secondary: "#bfdbfe",
+          accent: "#4f46e5",
+          neutral: "#3D4451",
+          "base-100": "#FFFFFF",
+          info: "#3ABFF8",
+          success: "#36D399",
+          warning: "#FBBD23",
+          error: "#F87272",
+        },
+      },
+    ],
+  },
   plugins: [require("daisyui")],
 };

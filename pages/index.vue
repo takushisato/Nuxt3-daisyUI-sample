@@ -1,8 +1,7 @@
 <template>
-  <div>
-    <h1 class="font-bold text-red-300">テスト</h1>
-    <button class="btn btn-neutral">Neutral</button>
-    <button class="btn btn-secondary">Secondary</button>
+  <div class="navbar bg-primary">
+    <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+    <button class="btn btn-secondary">aaaa</button>
   </div>
 </template>
 <script></script>
